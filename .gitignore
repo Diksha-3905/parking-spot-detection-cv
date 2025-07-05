@@ -1,0 +1,53 @@
+# ---------------------
+# Python cache & build
+# ---------------------
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.egg-info/
+
+# ---------------------
+# Virtual Environments
+# ---------------------
+venv/
+.env/
+env/
+
+# ---------------------
+# PyCharm project files
+# ---------------------
+.idea/
+
+# ---------------------
+# OS-specific files
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# Dataset files (video/image-heavy)
+# ---------------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+
+# ---------------------
+# Model weights
+# ---------------------
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# ---------------------
+# Compressed / misc files
+# ---------------------
+*.zip
+*.tar.gz
+*.rar
